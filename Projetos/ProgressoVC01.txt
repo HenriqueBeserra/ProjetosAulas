@@ -1,0 +1,12 @@
+(03.12.21) Classe contrutora com atributos
+	Métodos de coletar dados
+	Método validação dos dígitos
+	Localização dos bancos
+
+(07.12.21) Classe que valida o cartão e delvolve
+	uma informação válida ou não. permitindo
+	a avaliação do cartão e dando menos informações privadas 
+	para a interface/client.
+
+
+Continua...

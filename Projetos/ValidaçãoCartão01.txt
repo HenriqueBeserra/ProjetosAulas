@@ -1,0 +1,42 @@
+Algoritimo de Luhn, validação de cartões de crédito.
+
+Programa que lê digitos de um cartão e identifica se o número do cartão é válido
+e identifica sua bandeira.
+
+
+american = 15;
+visa1 = 13;
+visa2 = 16;
+master = 16;
+
+Recebe um input com os digitos
+Verifica a bandeira 
+Aplica o algorítimo de Luhn
+Output com validação do número do cartão
+
+Baixo índce de agregamento, Abstração.
+
+
+
+
+American Express começam com 34 ou 37;
+MasterCard começa com 51, 52, 53, 54 ou 55 
+Visa começam com 4.
+
+
+Abstrações
+Atributos com valores que validam a priore qual é o banco informado pelo
+número coletado.
+
+
+Algorítmo de Luhn
+Da esquerda para direita pega os números começando na posição 2 e indo de 2 em 2
+n[n]-2
+Soma-se esses números e o resultado é somado a soma dos números restantes, se a soma tiver
+a unidade =0 o cartão é válido, se não cartão inválido.
+Ex
+
+1234556 => 5+4+2 = 11
+           1+3+5+6= 15
+	    11+15= 26
+		Inválido.
