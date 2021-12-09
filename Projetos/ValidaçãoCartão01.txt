@@ -1,7 +1,7 @@
-Algoritimo de Luhn, validação de cartões de crédito.
+#Algoritimo de Luhn, validação de cartões de crédito.
 
-Programa que lê digitos de um cartão e identifica se o número do cartão é válido
-e identifica sua bandeira.
+#Programa que lê digitos de um cartão e identifica se o número do cartão é válido
+#e identifica sua bandeira.
 
 
 american = 15;
